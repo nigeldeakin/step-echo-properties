@@ -1,5 +1,5 @@
 name: echo-properties
-version: 1.1.5
+version: 1.1.6
 summary: Echo the properties. 
 summary: Send an event notification to PagerDuty of whether the pipeline failed or (optionally) succeeded. It is intended to be used in an after-step.
 tags:
