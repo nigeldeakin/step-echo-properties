@@ -1,34 +1,22 @@
 name: echo-properties
-version: 1.1.6
+version: 1.1.7
 summary: Echo the properties. 
-summary: Send an event notification to PagerDuty of whether the pipeline failed or (optionally) succeeded. It is intended to be used in an after-step.
 tags:
-  - notification
-  - webhook
-  - pagerduty
+  - testing
 properties:
-# If set to failed, this step will only send an event if the pipeline failed.
-- name: notify-on
+- name: prop1
   type: string
   required: false
-  default: failed
-# URL to send the event to. 
-- name: url
+- name: prop2
   type: string
   required: false
-  default: https://events.pagerduty.com/generic/2010-04-15/create_event.json
-# If set to the name of a branch, this step will only send an event for runs on that branch
-- name: branch
+- name: prop3
   type: string
   required: false
-- name: service-key
-  type: string
-  required: true
-- name: client
+- name: prop4
   type: string
   required: false
-  default: pagerduty-notifier
-- name: client-url
+- name: prop5
   type: string
   required: false
 
