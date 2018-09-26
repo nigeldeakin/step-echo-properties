@@ -5,15 +5,16 @@ build:
             name: echo the properties
             code: |
               echo "prop1:"
-              env | grep ECHO-PROPERTIES-PROP1
-              echo "prop2:"
-              env | grep ECHO-PROPERTIES-PROP2
-              echo "prop3:"
-              env | grep ECHO-PROPERTIES-PROP3
-              echo "prop4:"
-              env | grep ECHO-PROPERTIES-PROP4
-              echo "prop5:"
-              env | grep ECHO-PROPERTIES-PROP5
+              env
+              #env | grep ECHO-PROPERTIES-PROP1
+              #echo "prop2:"
+              #env | grep ECHO-PROPERTIES-PROP2
+              #echo "prop3:"
+              #env | grep ECHO-PROPERTIES-PROP3
+              #echo "prop4:"
+              #env | grep ECHO-PROPERTIES-PROP4
+              #echo "prop5:"
+              #env | grep ECHO-PROPERTIES-PROP5
 publish:
   steps:
     - internal/publish-step:
