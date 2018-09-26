@@ -1,0 +1,23 @@
+name: echo-properties
+version: 0.0.1
+summary: Echo the properties. 
+tags:
+  - testing
+properties:
+- name: prop1
+  type: string
+  required: false
+- name: prop2
+  type: string
+  required: false
+- name: prop3
+  type: string
+  required: false
+- name: prop4
+  type: string
+  required: false
+- name: prop5
+  type: string
+  required: false
+
+
