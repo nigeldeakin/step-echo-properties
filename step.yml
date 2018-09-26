@@ -1,5 +1,5 @@
 name: echo-properties
-version: 0.0.2
+version: 0.0.3
 summary: Echo the properties. 
 tags:
   - testing
